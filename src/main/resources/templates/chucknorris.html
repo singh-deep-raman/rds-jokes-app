@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!--step 1 - add this thymeleaf namespace, so that it's tags can be used in this doc -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Jokes app</title>
+</head>
+<body>
+<h1>Chuck Norris Joke</h1>
+
+<table>
+    <p th:text="${joke}">Insert joke here</p>
+</table>
+
+</body>
+</html>
